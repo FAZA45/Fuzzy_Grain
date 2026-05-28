@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_perjam"
+        android:title="@string/menu_perjam" />
+    <item
+        android:id="@+id/menu_harian"
+        android:title="@string/menu_harian" />
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme untuk Splash Screan -->
+    <style name="Theme.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+
+    <!-- Theme untuk MainActivity (Dashboard) -->
+    <style name="Theme.FuzzyGrain" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- 🌈 Buat status bar & navigation bar transparan -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!-- 🌙 Gunakan sistem terang agar ikon status bar (jam, sinyal, baterai) tetap gelap di background terang -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- 🧩 Pastikan konten bisa tampil di area notch atau punch hole -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- 🚫 Jangan pakai efek translucent agar tidak bentrok dengan WindowCompat -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+
+        <!-- ✅ Izinkan layout masuk ke bawah status bar -->
+        <item name="android:fitsSystemWindows">false</item>
+
+        <!-- Warna tombol -->
+        <item name="buttonStyle">@style/Widget.AppCompat.Button</item>
+        <item name="colorPrimary">#1976D2</item>
+        <item name="colorPrimaryContainer">#1976D2</item>
+
+        <!-- 🌟 Popup menu putih -->
+        <item name="popupMenuStyle">@style/PopupMenuStyle</item>
+
+        <!-- cegah auto-force dark pada beberapa perangkat -->
+        <item name="android:forceDarkAllowed">false</item>
+
+    </style>
+</resources>

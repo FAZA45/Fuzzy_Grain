@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "609271378636",
+    "firebase_url": "https://projek-gudang-padi-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "projek-gudang-padi",
+    "storage_bucket": "projek-gudang-padi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609271378636:android:3f8dd76587f73cf9bf8869",
+        "android_client_info": {
+          "package_name": "com.example.latihan5_skripsi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmxBW90-VzS5HKSenxUy9lOOSJc8SC-HI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

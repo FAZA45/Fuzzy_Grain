@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rowTabel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="6dp"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/tvWaktu"
+        android:layout_width="0dp"
+        android:layout_weight="0.65"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="none"
+        android:text="@string/waktu"
+        android:textSize="12sp"
+        android:textColor="#4CAF50"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/tvSuhu"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="none"
+        android:text="@string/suhu"
+        android:textSize="12sp"
+        android:textColor="#4CAF50"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/tvKelembapanUdara"
+        android:layout_width="0dp"
+        android:layout_weight="0.95"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="none"
+        android:text="@string/kelembapan"
+        android:textSize="12sp"
+        android:textColor="#4CAF50"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/tvKadarAirGabungan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.8"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:maxWidth="120dp"
+        android:ellipsize="end"
+        android:padding="4dp"
+        android:text="@string/water"
+        android:textColor="#4CAF50"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvKondisi"
+        android:layout_width="0dp"
+        android:layout_weight="1.3"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:ellipsize="none"
+        android:text="@string/kondisi"
+        android:textSize="12sp"
+        android:textColor="#4CAF50"
+        android:padding="4dp" />
+</LinearLayout>
